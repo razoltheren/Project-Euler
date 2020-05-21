@@ -1,6 +1,4 @@
-// C++ problem to find out the 
-// largest palindrome number which 
-// is product of two n digit numbers 
+
 #include <iostream> 
 using namespace std; 
 
@@ -24,7 +22,7 @@ int larrgestPalindrome(int n)
 	// limit which is product of two numbers. 
 	int lower_limit = 1 + upper_limit / 10; 
 
-	// Initialize result 
+	/
 	int max_product = 0; 
 	for (int i = upper_limit; 
 			i >= lower_limit; 
@@ -61,7 +59,7 @@ int larrgestPalindrome(int n)
 	return max_product; 
 } 
 
-// Driver code 
+
 int main() 
 { 
 	int n = 3; 
